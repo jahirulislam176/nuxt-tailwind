@@ -1,6 +1,6 @@
 <template>
 
-    <nav class="container-full bg-sky-800  flex justify-between items-center p-4 bg-gray">
+    <nav class="container-full bg-gray-200  flex justify-between items-center p-4 ">
         <!-- logo part -->
         <div class="w-20 h-20">
             <a href="">
@@ -17,7 +17,7 @@
         <div>
             <ul class="flex space-x-4">
                 <li class="relative group">
-                    
+
                     <a class="text-xl" href="">Home</a>
                     <ul class="absolute left-0  w-40 bg-sky-300 p-4 rounded-lg space-y-2 hidden group-hover:block">
                         <li><a class="block text-xl" href="">Submenu1</a></li>
