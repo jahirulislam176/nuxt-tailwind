@@ -41,11 +41,7 @@
             <li> <a href="#">Privacy Policy</a></li>
             <li><a href="#">Terms of Service</a></li>
         </ul>
-
     </div>
-  
-   
-   
 </div>
 
     <footer class="bg-gray-800 text-white py-4 ">
