@@ -1,9 +1,9 @@
 <template>
-    <div class="flex flex-wrap justify-center items-center  min-h-screen">
+    <div class="flex flex-wrap justify-center items-center min-h-screen bg-sky-900">
         
-        <div v-for="(product, index) in products" :key="index" class="bg-sky-800 w-60 border-4 border-black p-4 m-4">
+        <div v-for="(product, index) in products" :key="index" class="bg-sky-800 w-60 border-4 border-black p-4 m-4 ">
             <div>
-                <img :src="product.image" alt="Product Image" />
+                <img class="h-64 w-full" :src="product.image" alt="Product Image" />
             </div>
 
             <div class="justify-center items-center text-center space-y-2 mt-1">
@@ -19,7 +19,7 @@
 </template>
 
 <script setup>
-import phone from '~/assets/img/phone1.webp'
+import phone from '~/assets/img/phone7.jpg'
 
 const products = [
     { title: 'Product 1', description: 'Product Description', price: 99.99, image: phone },

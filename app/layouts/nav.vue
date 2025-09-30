@@ -17,7 +17,7 @@
             <ul class="flex space-x-4">
                 <li class="relative group">
                     <a class="text-xl" href="">Home</a>
-                    <ul class="absolute left-0  w-40 bg-sky-300 p-4 rounded-lg space-y-2 hidden group-hover:block">
+                    <ul class="absolute left-0  w-40 bg-sky-300 p-4 rounded-lg space-y-2 hidden group-hover:block z-999">
                         <li><a class="block text-xl" href="">Submenu1</a></li>
                         <li><a class="text-xl" href="">Submenu2</a></li>
                         <li><a class="text-xl" href="">Submenu3</a></li>

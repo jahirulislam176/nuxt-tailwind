@@ -1,12 +1,11 @@
 <template>
  <Nav></Nav>
-<slider></slider>
+ <slider></slider>
  <Product></Product>
  <Footer></Footer>
 </template>
 
 <script>
-
 import Nav from '~/layouts/nav.vue'
 import Footer from '~/layouts/footer.vue'
 import Product from '~/components/Product.vue'
