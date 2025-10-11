@@ -1,9 +1,9 @@
 <template>
 
     <div class="flex flex-wrap justify-center items-center min-h-screen">
-        <div v-for="(product, index) in products" :key="index"
+            <div v-for="(product, index) in products" :key="index"
             class="bg-sky-800 w-60 p-4 m-4 object-cover rounded-lg text-white hover:scale-105 transition-transform duration-300">
-            <a href="">
+            <a href="/single_product">
                 <div>
                     <img class="h-64 w-full " :src="product.image" alt="Product Image" />
                 </div>
@@ -25,6 +25,7 @@
 <script setup>
 
 import phone from '~/assets/img/phone7.jpg'
+import Single_product from '~/pages/single_product.vue';
 
 const products = [
     { title: 'Product 1', description: 'Product Description', price: 99.99, image: phone },
