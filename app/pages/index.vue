@@ -5,7 +5,7 @@
  <Category></Category>
  <Popular></Popular>
  <Product></Product>
- <Footer></Footer>
+
 
 </template>
 
@@ -26,7 +26,7 @@ export default {
     Category,
     Popular,
     Product,
-    Footer
+   
   }
 
 }
