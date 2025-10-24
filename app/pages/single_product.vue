@@ -14,29 +14,41 @@
     </div>
 
     <div class="mr-2 p-4">
-      <h1 class="text-3xl font-bold mb-8">Product Title</h1>
+      <h1 class="text-2xl font-bold mb-8 break-normal">Smile Q9 Victory (RAM-3GB/ROM-32GB)3700mAH Mobile Phone</h1>
+
+
+      <div class="p-10 text-4xl flex gap-6">
+        <font-awesome-icon icon="user" class="text-red-800" />
+        <font-awesome-icon :icon="['fab', 'facebook']" class="text-blue-700" />
+      </div>
+
+
       <p class="mb-4">No Ratings</p>
-      <p class="mb-4">Brand New Brand for users</p>
-      <p class="mb-4 text-xl">$99.99</p>
+
+      <p class="mb-4">Brand New  for users</p>
+
+      <p class="mb-4 text-xl" >$99.99</p>
 
       <p>Quanity </p>
-
-
       <p class="">This is a detailed description of the product. It provides all the necessary information that a
         potential buyer might need to make an informed decision.</p>
-     <span class="flex gap-2 mt-4">
-       <button class="bg-red-500 text-white rounded p-2 hover:bg-blue-600 transition-colors duration-300 w-1/2">
-       Buy Now
-      </button>
-      <button class="bg-blue-500 text-white rounded p-2 hover:bg-blue-600 transition-colors duration-300 w-1/2">
-        Add to Cart
-      </button>
-     </span>
+      <span class="flex gap-2 mt-4">
+        <button class="bg-red-500 text-white rounded p-2 hover:bg-blue-600 transition-colors duration-300 w-1/2">
+          Buy Now
+        </button>
+        <button class="bg-blue-500 text-white rounded p-2 hover:bg-blue-600 transition-colors duration-300 w-1/2">
+          Add to Cart
+        </button>
+      </span>
     </div>
 
     <div>
+
+      
       <p>Delivery Options </p>
       <h5>Dhaka, Dhaka North, Banani Road No. 12 - 19</h5>
+
+
       <p>Return & Warranty </p>
       <p>14 days easy return</p>
       <p>Warranty not available</p>
