@@ -1,6 +1,7 @@
 <template>
 
-  <div class="max-w-6xl mx-auto my-8 p-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+  <div class="max-w-6xl mx-auto my-8 p-4 grid grid-cols-1 md:grid-cols-3 gap-8  shadow-md">
+
     <div class="flex flex-col items-center p-6">
       <!-- Main Image -->
       <img :src="mainImage" alt="Main Image" class="w-96 h-96 object-contain rounded-lg shadow-md mb-4" />
@@ -29,7 +30,29 @@
 
       <p class="mb-4 text-xl" >$99.99</p>
 
-      <p>Quanity </p>
+   
+
+
+    
+
+      <div class="flex items-center gap-4 my-2">
+
+        <p>Quantity:</p>
+
+         <button class="bg-gray-300 text-gray-700 rounded px-3 py-1 hover:bg-gray-400 transition-colors duration-300">-</button>
+
+         <span class="text-lg">1</span>
+
+
+         <button class="bg-gray-300 text-gray-700 rounded px-3 py-1 hover:bg-gray-400 transition-colors duration-300">+</button>
+
+     </div>
+
+
+    
+    
+
+
       <p class="">This is a detailed description of the product. It provides all the necessary information that a
         potential buyer might need to make an informed decision.</p>
       <span class="flex gap-2 mt-4">
@@ -40,24 +63,51 @@
           Add to Cart
         </button>
       </span>
-    </div>
 
-    <div>
 
       
-      <p>Delivery Options </p>
-      <h5>Dhaka, Dhaka North, Banani Road No. 12 - 19</h5>
-
-
-      <p>Return & Warranty </p>
-      <p>14 days easy return</p>
-      <p>Warranty not available</p>
     </div>
+
+    <div class="mt-3">
+
+      <p>Delivery Options </p>
+      <h5 class="text-xl word-break">Dhaka, Dhaka North, Banani Road No. 12 - 19</h5>
+
+
+      <p class="mt-2">Return & Warranty </p>
+
+      <p class="text-xl word-break">14 days easy return</p>
+      <p>Warranty not available</p>
+
+    </div>
+
+
+
+  </div>
+
+<div class="max-w-6xl mx-auto my-8 p-4">
+
+ <h2 class="text-2xl font-bold p-4">Product details of Vivo V60 > 12--256</h2>
+  
+ <div class="flex flex-cols-1 md:flex-cols-2 gap-[15vw] p-4">
+
+
+   <div>
+   
+    <article class="">
+      <p>10-day seller replacement guarantee</p>
+      <p>10-day seller replacement guarantee</p>
+      <p>10-day seller replacement guarantee</p>
+      <p>10-day seller replacement guarantee</p>
+      <p>10-day seller replacement guarantee</p>
+      <p>10-day seller replacement guarantee</p>
+    </article>
   </div>
 
 
-  <div>
-    <h2 class="text-2xl font-bold p-4">Product details of Vivo V60 > 12--256</h2>
+
+  <div class="">
+    
     <article>
       <p>10-day seller replacement guarantee</p>
       <p>10-day seller replacement guarantee</p>
@@ -67,38 +117,15 @@
       <p>10-day seller replacement guarantee</p>
     </article>
   </div>
+
+
+
+ </div>
+
   <hr>
 
 
-  <div class="my-8">
-    <h2 class="text-2xl font-bold p-4">Vivo V60</h2>
-    <article>
-      <p>10-day seller replacement guarantee</p>
-      <p>10-day seller replacement guarantee</p>
-      <p>10-day seller replacement guarantee</p>
-      <p>10-day seller replacement guarantee</p>
-      <p>10-day seller replacement guarantee</p>
-      <p>10-day seller replacement guarantee</p>
-    </article>
-  </div>
 
-  <hr>
-
-
-  <div class="my-8">
-    <h2 class="text-2xl font-bold p-4">Vivo V60</h2>
-    <article>
-      <p>10-day seller replacement guarantee</p>
-      <p>10-day seller replacement guarantee</p>
-      <p>10-day seller replacement guarantee</p>
-      <p>10-day seller replacement guarantee</p>
-      <p>10-day seller replacement guarantee</p>
-      <p>10-day seller replacement guarantee</p>
-    </article>
-
-    <img src="https://img.drz.lazcdn.com/static/bd/p/471023acb0b6a0a11d60790a24829826.png_2200x2200q80.png_.webp"
-      alt="">
-  </div>
 
   <div>
     <h2 class="text-2xl font-bold p-4">Specifications of Vivo V60 > 12--256</h2>
@@ -154,6 +181,10 @@
     </div>
 
   </div>
+
+
+
+</div>
 
 </template>
 
